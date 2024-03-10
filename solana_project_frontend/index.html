@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solana Projesi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Solana Projesi</h1>
+
+    <div id="listingForm">
+        <h2>List a House</h2>
+        <input type="text" id="owner" placeholder="Owner Pubkey"><br>
+        <input type="number" id="price" placeholder="Price"><br>
+        <button onclick="listHouse()">List House</button>
+    </div>
+
+    <div id="reservationForm">
+        <h2>Reserve a House</h2>
+        <input type="text" id="guest" placeholder="Guest Pubkey"><br>
+        <input type="text" id="house" placeholder="House Pubkey"><br>
+        <button onclick="reserveHouse()">Reserve House</button>
+    </div>
+
+    <div id="message"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

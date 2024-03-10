@@ -1,0 +1,11 @@
+[package]
+name = "solana_project"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+solana-sdk = "1.9.7"
+anchor-lang = "0.29.0"
+solana-program = "1.7.3"
